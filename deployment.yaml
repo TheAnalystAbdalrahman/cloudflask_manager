@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cloudflask-manager
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: cloudflask-manager
+  template:
+    metadata:
+      labels:
+        app: cloudflask-manager
+    spec:
+      containers:
+      - name: cloudflask-manager
+        image: cloudflask-manager:latest
+        ports:
+        - containerPort: 5000
