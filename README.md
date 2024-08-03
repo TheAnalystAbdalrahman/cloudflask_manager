@@ -101,5 +101,3 @@ Configure your CI/CD pipeline with your preferred tool (Jenkins, GitLab CI, GitH
 
 Feel free to reach out with any questions or feedback!
 ```
-
-You can copy this text into your `README.md` file and commit it to your repository. If you need further adjustments, just let me know!
