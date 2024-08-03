@@ -1,6 +1,3 @@
-
-
-```markdown
 # CloudFlask Manager
 
 **CloudFlask Manager** is a web-based application designed to manage and deploy microservices using Flask, Docker, Kubernetes, and AWS services. This project demonstrates a full-stack development workflow incorporating modern DevOps practices.
@@ -50,7 +47,7 @@ CloudFlask Manager is designed to streamline the deployment and management of mi
 ```bash
 git clone https://github.com/YourUsername/cloudflask_manager.git
 cd cloudflask_manager
-```
+
 
 ### Configure AWS CLI
 
